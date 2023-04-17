@@ -2,3 +2,4 @@ backend.json
 credentials.tf
 .terraform*
 .terraform/*
+terraform.exe
