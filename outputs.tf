@@ -19,6 +19,6 @@ output "vpc_subnet3" {
   sensitive = false
 }
 output "sg_id" {
- value     = aws_security_group.allow_all.id
- sensitive = false
+  value     = aws_security_group.allow_all.id
+  sensitive = false
 }
