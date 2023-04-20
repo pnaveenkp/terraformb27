@@ -1,4 +1,4 @@
-vpc_name            = "Naveen"
+vpc_name            = "Naveen-DEV"
 cidr_block          = "10.95.0.0/16"
 env                 = "DEV"
 public_subnet1_cidr = "10.95.1.0/24"
