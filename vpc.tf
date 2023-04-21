@@ -6,9 +6,9 @@ resource "aws_vpc" "testvpc01" {
     Owner       = "Rajasekhar"
     environment = var.env
   }
-    depends_on = [
-     aws_s3_bucket.nvpcflowlogsbucket
-   ]
+  # depends_on = [
+  #   aws_s3_bucket.nvpcflowlogsbucket
+  # ]
 
 }
 
